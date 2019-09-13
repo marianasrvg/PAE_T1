@@ -68,8 +68,13 @@ a>i {
     font-family: 'Merriweather', serif;
     text-align: center;
     color: #CEB5A7;
-    font-size: 1.3em;
+    font-size: 1.7em;
     background-color: #5C6E70;
+    height: 100px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 a.sm:hover {
@@ -78,10 +83,13 @@ a.sm:hover {
 
 .circular--portrait {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .circular--portrait img {
@@ -90,6 +98,7 @@ a.sm:hover {
 }
 
 div > form {
+    padding: 25px;
     text-align: left;
 }
 
@@ -103,6 +112,11 @@ input[type="submit"]{
     width: 40%;
 }
 
+p.desc {
+    font-family: 'Merriweather', serif;
+    font-size: 18pt;
+}
+
 @media screen and (min-width: 679px) {
     .bx {
         border-right: 2px solid #E0F2E9;
@@ -114,5 +128,25 @@ input[type="submit"]{
 
     .header > img {
         display: none;
+    }
+
+    .sm {
+        font-size: 1.3em;
+    }
+
+    .insta::after{
+        content:'Instagram';
+    }
+
+    .pinterest::after{
+        content:'Pinterest';
+    }
+
+    .twitter::after{
+        content:'Twitter';
+    }
+
+    .vsco::after{
+        content:'VSCO';
     }
 }

@@ -31,6 +31,10 @@ html, body {
     .responsive-grid >div.col-4 {
         width: 50%;
     }
+
+    .responsive-grid >div.k3 {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 981px) {
