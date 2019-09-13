@@ -13,6 +13,11 @@ body {
     height: 300px;
 }
 
+.header > video {
+    height: 300px;
+    display: none;
+}
+
 h1,
 h2 {
     font-family: 'Merriweather', serif;
@@ -98,15 +103,16 @@ input[type="submit"]{
     width: 40%;
 }
 
-
-@media screen and (min-width: 981px) {
+@media screen and (min-width: 679px) {
     .bx {
         border-right: 2px solid #E0F2E9;
     }
-}
 
-@media screen and (min-width: 679px) and (max-width: 980px) {
-    .bx {
-        border-right: 2px solid #E0F2E9;
+    .header > video {
+        display: inline;
+    }
+
+    .header > img {
+        display: none;
     }
 }
