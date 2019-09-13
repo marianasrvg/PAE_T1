@@ -1,0 +1,112 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif; */
+body {
+    background-color: #E0F2E9;
+}
+
+.header {
+    text-align: center;
+    height: 300px;
+}
+
+.header>img {
+    height: 300px;
+}
+
+h1,
+h2 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 6em;
+    color: #5C6E70;
+}
+
+h2 {
+    font-size: 4em;
+    color:#333132;
+}
+
+div {
+    text-align: center;
+}
+
+div.menu {
+    background-color: #333132;
+    color: #E0F2E9;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+a {
+    color: #8EC5C6;
+    text-decoration: none;
+}
+
+a:active {
+    color: #CEB5A7;
+}
+
+a:hover {
+    color: #E0F2E9;
+}
+
+a>i {
+    color: #CEB5A7;
+}
+
+.sm {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #CEB5A7;
+    font-size: 1.3em;
+    background-color: #5C6E70;
+}
+
+a.sm:hover {
+    color: #CEB5A7;
+}
+
+.circular--portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular--portrait img {
+    width: 100%;
+    height: auto;
+}
+
+div > form {
+    text-align: left;
+}
+
+div form input,
+div form textarea {
+    width: 100%;
+}
+
+input[type="submit"]{
+    text-align: center;
+    width: 40%;
+}
+
+
+@media screen and (min-width: 981px) {
+    .bx {
+        border-right: 2px solid #E0F2E9;
+    }
+}
+
+@media screen and (min-width: 679px) and (max-width: 980px) {
+    .bx {
+        border-right: 2px solid #E0F2E9;
+    }
+}
